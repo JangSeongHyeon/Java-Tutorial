@@ -1,7 +1,6 @@
 class Data2{ int x; }
 
 public class Ex6_7 {
-
 	public static void main(String[] args) {
 		Data2 d=new Data2();
 		d.x=10;
@@ -9,7 +8,7 @@ public class Ex6_7 {
 		
 		change(d);
 		System.out.println("After change(d)");
-		System.out.println("main():x"+d.x);
+		System.out.println("main():"+d.x);
 
 	}
 	
@@ -19,3 +18,5 @@ public class Ex6_7 {
 	}
 
 }
+
+
